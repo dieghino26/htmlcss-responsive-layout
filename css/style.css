@@ -185,3 +185,28 @@ li {
 aside {
     display: none;
 }
+
+/* procedure */
+.procedure h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.procedure hr {
+    width: 100px;
+    height: 3px;
+    border: none;
+    background-color: #ff9614;
+}
+
+.tiramisù-img {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 40px;
+}

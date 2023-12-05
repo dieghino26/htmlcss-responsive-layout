@@ -25,12 +25,19 @@ a {
 .btn {
     padding: 10px 15px;
     border-radius: 20px;
-    background-color: #ff9614;
+    background-color: #fff;
     color: #fff;
     font-weight: bold;
     font-size: 1rem;
     border: none;
+    margin-bottom: 30px;
 }
+
+img {
+    width: 100%;
+    display: block;
+}
+
 
 /* header */
 .logo {
@@ -85,6 +92,11 @@ a {
     color: #ff9614;
 }
 
+.vote .btn {
+    background-color: #ff9614;
+    margin-bottom: 0;
+}
+
 /*video section*/
 
 .video {
@@ -100,6 +112,7 @@ a {
 /*info*/
 .recipe {
     box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    margin-bottom: 30px;
 }
 
 .recipe-info {
@@ -141,4 +154,34 @@ ul {
 
 li {
     margin: 20px 0px
+}
+
+/*socials*/
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter {
+    color: #009EFF;
+}
+
+.fa-instagram {
+    color: rgb(247, 117, 225);
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+aside {
+    display: none;
 }

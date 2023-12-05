@@ -210,3 +210,33 @@ p {
     font-weight: 100;
     line-height: 40px;
 }
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/*footer*/
+footer {
+    background-color: #7C69A4;
+    padding: 30px;
+}
+
+address span {
+    display: block;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+footer a {
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+/*tablet*/
+@media screen and (min-width:768px) {
+    .container {
+        padding: 50px;
+    }
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .logo a {
+        margin-left: 10px;
+    }
+
+    .page-title i {
+        display: inline-block;
+        font-style: normal;
+    }
+
+    .ingredients ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ingredients li {
+        flex-basis: calc(100% / 3);
+    }
+
+    .socials .btn {
+        flex-basis: 20%;
+    }
+
+    .socials {
+        gap: 10px;
+    }
+
+    aside {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .procedure img {
+        margin-right: 20px;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .page-title h4 {
+        font-size: 1.5rem;
+    }
+
+    .page-title h2 {
+        font-size: 3rem;
+    }
+
+    .ingredients ul {
+        display: block;
+    }
+
+    .recipe {
+        display: flex;
+    }
+
+    .video {
+        flex-basis: 80%;
+        max-height: 450px;
+    }
+
+    .socials span {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+
+    }
+
+
+}
